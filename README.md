@@ -1,6 +1,6 @@
-# DeFiExample
+# Compound DeFi
 
-A practical example repository for developing, testing, and demonstrating decentralized finance (DeFi) smart contracts using Solidity and Vyper. This project is intended for developers who want to experiment with DeFi protocols such as Compound, Chainlink, and flash minting on Ethereum mainnet forks.
+A practical solution repository for developing, testing, and demonstrating decentralized finance (DeFi) smart contracts using Solidity and Vyper. This project is intended for developers who want to experiment with DeFi protocols such as Compound, Chainlink, and flash minting on Ethereum mainnet forks.
 
 ---
 
@@ -9,7 +9,7 @@ A practical example repository for developing, testing, and demonstrating decent
 - **Integration with DeFi Protocols**: 
   - Interacts with major protocols including Compound and Chainlink.
   - Demonstrates borrowing, lending, liquidation, and long/short strategies with ERC20 tokens and ETH.
-  - Provides flash minting/wrapping examples (e.g., WETH flash mint).
+  - Provides flash minting/wrapping solutions (e.g., WETH flash mint).
 
 - **Test Environment**:
   - Forks Ethereum mainnet using Infura or ArchiveNode for realistic contract testing.
@@ -99,11 +99,6 @@ env $(cat .env) npx truffle test --network mainnet_fork test/test-erc20.js
 env $(cat .env) npx truffle test --network mainnet_fork test/test-dydx-solo-margin.js
 ```
 
----
-
-## About
-
-**DeFiExample** is a hands-on playground for developers to learn and prototype with real DeFi protocol interactions on mainnet forks. It showcases common DeFi operations such as lending, borrowing, liquidating, and leveraging assets using Compound, Chainlink, and flash minting strategies. The repository emphasizes realistic testing by forking Ethereum mainnet and using live contract addresses and whale accounts. It supports rapid prototyping and experimentation in both Solidity and Vyper.
 
 ---
 
